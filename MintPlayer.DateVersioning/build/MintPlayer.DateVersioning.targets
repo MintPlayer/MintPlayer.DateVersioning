@@ -1,9 +1,22 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
+	<UsingTask TaskName="GetVersion" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll">
+		<Task>
+			<Using Namespace="System" />
+			<Code Type="Fragment" Language="cs">
+				<![CDATA[
+					Result = DateTime.Now.ToString("yyyy.M.5");
+				]]>
+			</Code>
+		</Task>
+	</UsingTask>
 	<Target Name="DateVersioning" BeforeTargets="Build">
+		<GetVersion>
+			<Output ItemName="DateVersion" TaskParameter="Result" />
+		</GetVersion>
 		<PropertyGroup>
-			<Version>1.2.3</Version>
-			<PackageVersion>1.2.3</PackageVersion>
+			<Version>@(DateVersion)</Version>
+			<PackageVersion>@(DateVersion)</PackageVersion>
 		</PropertyGroup>
 	</Target>
 
