@@ -15,7 +15,7 @@
 	</UsingTask>
 	<Target Name="DateVersioning" BeforeTargets="Build">
 		<GetVersion>
-			<Output PropertyName="DateVersion" TaskParameter="Result" />
+			<Output ItemName="DateVersion" TaskParameter="Result" />
 		</GetVersion>
 		<PropertyGroup>
 			<Version>@(DateVersion)</Version>
