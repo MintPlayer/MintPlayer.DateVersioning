@@ -6,7 +6,7 @@ namespace MintPlayer.DateVersioning.Code;
 
 internal static class EntryPoint
 {
-    public static Task<string> GetFormattedDateAsync()
+    public static string GetFormattedDate()
     {
         //var services = new ServiceCollection()
         //    .AddGitCli()
@@ -15,6 +15,6 @@ internal static class EntryPoint
         //var gitCli = services.GetRequiredService<IGitCli>();
         //var commits = gitCli.Run()
 
-        return Task.FromResult(DateTime.Now.ToString("yyyy.M.5"));
+        return DateTime.Now.ToString("yyyy.M.5");
     }
 }

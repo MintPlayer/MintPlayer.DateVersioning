@@ -8,7 +8,7 @@
 			<Using Namespace="MintPlayer.DateVersioning.Code" />
 			<Code Type="Fragment" Language="cs">
 				<![CDATA[
-					Result = await EntryPoint.GetFormattedDateAsync();
+					Result = EntryPoint.GetFormattedDate();
 				]]>
 			</Code>
 		</Task>

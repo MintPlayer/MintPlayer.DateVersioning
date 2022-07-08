@@ -8,7 +8,7 @@
 
 		<IsPackable>true</IsPackable>
 		<PackageId>MintPlayer.GitCli</PackageId>
-		<Version>6.0.2</Version>
+		<Version>6.0.3</Version>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<Description>This package allows you to run commands on a git repository.</Description>
@@ -30,10 +30,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\MintPlayer.GitCli.Abstractions\MintPlayer.GitCli.Abstractions.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Compile Include="**\*.cs" />
 	</ItemGroup>
 
 </Project>

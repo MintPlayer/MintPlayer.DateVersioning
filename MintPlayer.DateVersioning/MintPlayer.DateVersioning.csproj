@@ -8,7 +8,7 @@
 
 		<IsPackable>true</IsPackable>
 		<PackageId>MintPlayer.DateVersioning</PackageId>
-		<Version>6.1.4</Version>
+		<Version>6.1.5</Version>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<Description>This package versions your library like [yyyy].[MM].[commit]</Description>
@@ -26,15 +26,14 @@
 	<ItemGroup>
 		<None Remove="build\**\*" />
 		<Content Include="build\**\*" PackagePath="build" />
-		<Compile Include="Code\**\*.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\MintPlayer.GitCli\MintPlayer.GitCli.csproj" />
+		<ProjectReference Include="..\MintPlayer.GitCli\MintPlayer.GitCli.csproj" />
 	</ItemGroup>
 
 	<Target Name="AddDateVersioningOutput" BeforeTargets="_GetPackageFiles">
