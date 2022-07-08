@@ -8,7 +8,7 @@
 
 		<IsPackable>true</IsPackable>
 		<PackageId>MintPlayer.GitCli.Abstractions</PackageId>
-		<Version>6.0.1</Version>
+		<Version>6.0.2</Version>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<Description>This package contains the interfaces for MintPlayer.GitCli.</Description>
@@ -22,5 +22,9 @@
 		<Company>MintPlayer</Company>
 		<Product>MintPlayer.GitCli</Product>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="**\*.cs" />
+	</ItemGroup>
 
 </Project>
