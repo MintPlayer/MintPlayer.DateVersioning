@@ -5,10 +5,10 @@
 			<Result ParameterType="System.String" Output="true" />
 		</ParameterGroup>
 		<Task>
-			<Using Namespace="System" />
+			<Using Namespace="MintPlayer.DateVersioning.Code" />
 			<Code Type="Fragment" Language="cs">
 				<![CDATA[
-					Result = DateTime.Now.ToString("yyyy.M.5");
+					Result = await EntryPoint.GetFormattedDateAsync();
 				]]>
 			</Code>
 		</Task>

@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintPlayer.DateVersioning", "MintPlayer.DateVersioning\MintPlayer.DateVersioning.csproj", "{A4DCC7EF-B83A-4352-89C4-84DB40998AD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintPlayer.GitCli", "MintPlayer.GitCli\MintPlayer.GitCli.csproj", "{414C0589-DC56-4628-8D47-F42FCBA39230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintPlayer.GitCli.Abstractions", "MintPlayer.GitCli.Abstractions\MintPlayer.GitCli.Abstractions.csproj", "{12FFC1BB-8527-4732-9C6B-AA2CD563B6D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A4DCC7EF-B83A-4352-89C4-84DB40998AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4DCC7EF-B83A-4352-89C4-84DB40998AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4DCC7EF-B83A-4352-89C4-84DB40998AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414C0589-DC56-4628-8D47-F42FCBA39230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414C0589-DC56-4628-8D47-F42FCBA39230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414C0589-DC56-4628-8D47-F42FCBA39230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414C0589-DC56-4628-8D47-F42FCBA39230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FFC1BB-8527-4732-9C6B-AA2CD563B6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FFC1BB-8527-4732-9C6B-AA2CD563B6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FFC1BB-8527-4732-9C6B-AA2CD563B6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FFC1BB-8527-4732-9C6B-AA2CD563B6D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
