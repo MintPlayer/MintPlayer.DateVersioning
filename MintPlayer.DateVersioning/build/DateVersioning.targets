@@ -1,0 +1,10 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<Target Name="DateVersioning" BeforeTargets="Build">
+		<PropertyGroup>
+			<Version>1.2.3</Version>
+			<PackageVersion>1.2.3</PackageVersion>
+		</PropertyGroup>
+	</Target>
+
+</Project>
