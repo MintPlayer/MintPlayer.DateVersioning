@@ -8,7 +8,7 @@
 
 		<IsPackable>true</IsPackable>
 		<PackageId>MintPlayer.DateVersioning</PackageId>
-		<Version>6.1.1</Version>
+		<Version>6.1.2</Version>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<Description>This package versions your library like [yyyy].[MM].[commit]</Description>
